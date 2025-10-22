@@ -10,6 +10,38 @@
     <script src="index.js" defer></script>
 </head>
 <body>
-    
+    <form class="container">
+        <h1>Generar contraseña</h1>
+        <div class="rango">
+            <label for="rang">caracteres: <span>(8 - 30)</span></label>
+            <input type="range" id="rang" min="8" max="30">
+        </div>
+        <div class="datos">
+            <fieldset class="options">
+                <legend>Opciones</legend>
+                <div class="mayus">
+                    <input type="checkbox"id="mayus">
+                    <label for="mayus">Mayúsculas</label>
+                </div>
+                <div class="minus">
+                    <input type="checkbox" id="minus">
+                    <label for="minus">Minúsculas</label>
+                </div>
+                <div class="nume">
+                    <input type="checkbox" id="nume">
+                    <label for="nume">Números</label>
+                </div>
+                <div class="simb">
+                    <input type="checkbox" id="simb">
+                    <label for="simb">Símbolos</label>
+                </div>
+            </fieldset>
+            <button class="generar">Generar</button>
+        </div>
+        <div class="generada">
+            <input type="text" disabled>
+            <button class="copiar">Copiar</button>
+        </div>
+    </form>
 </body>
 </html>

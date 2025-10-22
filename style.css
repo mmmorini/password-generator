@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 340px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 0 30px;
+    box-shadow: 0 0 10px #00000040;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    margin-bottom: 5px;
+}
+
+.rango {
+    display: flex;
+    flex-direction: column;
+}
+
+.datos {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+}
+
+.generar {
+    padding: 5px 10px;
+    border: 1px solid #005CC8;
+    background-color: #fff;
+    color: #005CC8;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.generar:hover {
+    background-color: #005CC8;
+    color: #fff;
+}
+
+.copiar {
+    padding: 2px 10px;
+    border: 1px solid #269546;
+    background-color: #fff;
+    color: #269546;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.copiar:hover {
+    background-color: #269546;
+    color: #fff;
+}
