@@ -13,8 +13,8 @@
     <form class="container">
         <h1>Generar contraseña</h1>
         <div class="rango">
-            <label for="rang">caracteres: <span>(8 - 30)</span></label>
-            <input type="range" id="rang" min="8" max="30">
+            <label for="rang">caracteres: <span class="span">(8 - 30)</span></label>
+            <input class="input-range" type="range" id="rang" min="8" max="30">
         </div>
         <div class="datos">
             <fieldset class="options">
@@ -36,11 +36,11 @@
                     <label for="simb">Símbolos</label>
                 </div>
             </fieldset>
-            <button class="generar">Generar</button>
+            <button type="button" class="generar">Generar</button>
         </div>
         <div class="generada">
-            <input type="text" disabled>
-            <button class="copiar">Copiar</button>
+            <input class="resultado" type="text" disabled>
+            <button type="button" class="copiar">Copiar</button>
         </div>
     </form>
 </body>

@@ -78,9 +78,34 @@ button {
     color: #269546;
     cursor: pointer;
     transition: all .1s;
+    max-width: 80px;
+    width: 100%;
 }
 
 .copiar:hover {
     background-color: #269546;
     color: #fff;
+}
+
+.generada {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.resultado {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+
+
+/* POR POSIBLE FALLA DEL MÉTODO NAVIGATOR */
+
+.textArea {
+    position: absolute;
+    left: -9999px;
 }
